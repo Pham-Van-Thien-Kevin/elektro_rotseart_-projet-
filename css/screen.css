@@ -1,0 +1,78 @@
+/*---------------------------------------/*
+ # SETTINGS
+/*---------------------------------------*/
+:root{
+    --primary-color:#E30613;
+    --secundaire-color:#1A1A1A;
+    --accent-color:#FFFFFF;
+    --accent-color2:#343434;
+    --title-font:"Hanken Grotesk", sans-serif;
+    --tekst-font:"Kumbh Sans", sans-serif;
+}
+/*---------------------------------------/*
+ # GENERIC - BOOTSTRAP
+/*---------------------------------------*/
+
+/*---------------------------------------/*
+ # ELEMENTS
+/*---------------------------------------*/
+body{
+    font-family: var(--tekst-font);
+}
+h1,h2,h3,h4,h5{
+    font-family: var(--title-font);
+}
+/*---------------------------------------/*
+ # OBJECTS
+/*---------------------------------------*/
+
+/*---------------------------------------/*
+ # COMPONENTS
+/*---------------------------------------*/
+.c-nav {
+  background-color: var(--secundaire-color);
+}
+
+.c-nav__link {
+  color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    color: var(--primary-color);
+  }
+}
+
+.c-nav .nav-link {
+  color: var(--accent-color);
+  transition: color 0.3s ease;
+
+  &:hover,
+  &:focus {
+    color: var(--primary-color);
+  }
+}
+
+.c-nav .nav-link.active {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+.dropdown-item {
+  color: var(--secundaire-color);
+  transition: all 0.3s ease;
+
+  &:hover,
+  &:focus {
+    color: var(--primary-color) !important;
+    background-color: transparent;
+  }
+}
+
+.nav-item.dropdown.show > .nav-link.dropdown-toggle {
+  color: var(--primary-color) !important;
+}
+
+
+/*---------------------------------------/*
+ # UTILITIES
+/*---------------------------------------*/
