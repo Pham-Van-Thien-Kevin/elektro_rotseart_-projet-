@@ -46,8 +46,7 @@ h1,h2,h3,h4,h5{
   color: var(--accent-color);
   transition: color 0.3s ease;
 
-  &:hover,
-  &:focus {
+  &:hover{
     color: var(--primary-color);
   }
 }
@@ -72,6 +71,14 @@ h1,h2,h3,h4,h5{
   color: var(--primary-color) !important;
 }
 
+.c-btn{
+  background-color: var(--primary-color);
+  color: var(--accent-color);
+  &:hover{
+    background-color: var(--secundaire-color);
+    color: var(--accent-color);
+  }
+}
 
 /*---------------------------------------/*
  # UTILITIES
