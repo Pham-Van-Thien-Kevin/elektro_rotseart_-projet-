@@ -81,8 +81,11 @@ h1,h2,h3,h4,h5{
     color: var(--accent-color);
   }
 }
+.c-header__text{
+  padding: 15rem 0;
+}
 .c-header--title{
-  padding: 10rem 0;
+  padding: 2rem 0;
 }
 /*---------------------------------------/*
  # UTILITIES
